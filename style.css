@@ -12,6 +12,7 @@ h1 {
     font-size: 30px;
     font-family:cursive;
     color:red;
+    cursor:none;
 }
 
 
@@ -22,6 +23,10 @@ h1 {
     border-radius: 50%;
     background-color: black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clock:hover{
+    background-color: rgb(52, 160, 210);
 }
 
 .hour-hand, .minute-hand, .second-hand {
